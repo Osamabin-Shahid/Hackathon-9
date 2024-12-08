@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Home = () => {
+const Menu = () => {
   return (
     <div>
+        <h1>usama</h1>
       
     </div>
   )
 }
 
-export default Home
-
+export default Menu
