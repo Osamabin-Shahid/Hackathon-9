@@ -26,8 +26,8 @@ export default function Hero(){
 
 {/* image */}
 <div className="sm-w-full md:w-[30%] lg:w-[30%] pl-7 justify-center items-center flex flex-row">
-  <img src= "/Image.png" alt="hero_plate" 
-  className="w-50 h-auto shadow-md "
+  <Image src= "/Image.png" alt="hero_plate" 
+   width={600} height={600}
   />
 
 
