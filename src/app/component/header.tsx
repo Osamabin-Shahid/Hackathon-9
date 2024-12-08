@@ -23,21 +23,20 @@ const Header = () => {
         {/* Navigation and Search */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-6">
           {/* Navigation */}
-          <ul className="flex flex-wrap justify-center md:justify-start gap-4 text-white text-sm md:text-base">
+          <ul className="flex flex-wrap justify-center md:justify-start gap-8 text-white text-sm md:text-base">
             <li className="hover:text-yellow-500 cursor-pointer"><Link href='/'>Home</Link></li>
-            <li className="hover:text-yellow-500 cursor-pointer"><Link href='/Menu'>Menu</Link></li>
+            <li className="hover:text-yellow-500 cursor-pointer"><Link href='Menu'>Menu</Link></li>
             <li className="hover:text-yellow-500 cursor-pointer"><Link href='/Blog'>Blog</Link></li>
             <li className="hover:text-yellow-500 cursor-pointer"><Link href='/Pages'>Pages</Link></li>
-            <li className="hover:text-yellow-500 flex items-center gap-1 cursor-pointer">
+            <li className="hover:text-yellow-500 flex items-center gap-1 cursor-pointer"><Link href='/About'>
               About
               <select
                 className="bg-transparent text-white text-sm cursor-pointer"
                 name="about"
                 id="ab"
               >
-                {/* <option value="about">About</option> */}
-                {/* <option value="team">Our Team</option> */}
               </select>
+              </Link>
             </li>
             <li className="hover:text-yellow-500 cursor-pointer"><Link href='/Shop'>Shop</Link></li>
             <li className="hover:text-yellow-500 cursor-pointer"><Link href='/Contact'>Contact</Link></li>
